@@ -15,7 +15,7 @@ public class TestMain {
             try {
                 TestMain.class.wait();
             } catch (InterruptedException e) {
-                log.error("error", e);
+                log.error("启动失败", e);
                 System.exit(-1);
             }
         }
